@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="timer_new.css">
+    <title>Jemimah's timer</title>
+</head>
+<body>
+
+    <div id="screen">
+        <p id = "pscreen">0:00</p>
+    </div>
+
+    <div id="body">
+        <button onclick="startUp()" id = "upcount">Upcounter</button>
+        <button onclick="startDown()" id = "downcount">Downcounter</button>
+    </div>
+
+    <div id="screen2">
+        <p id = addisplay></p>
+    </div>
+    
+    
+    <div id="adders">
+        <button onclick="addMin()">+Minutes</button>
+        <button onclick="addSec()">+Seconds</button>
+        <br>
+        <button>-Minutes</button>
+        <button>-Seconds</button>
+    </div>
+
+    <script src = "timer_new.js"></script>
+</body>
+</html>
